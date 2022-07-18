@@ -4,8 +4,13 @@
     
 }
 
+.wrap{
+    overflow:hidden;
+}
+
 body{
     position:relative;
+    
 }
 
 #header{
@@ -40,18 +45,59 @@ body{
 .thumbnail2{
     width:40%;
     aspect-ratio:47/55;
-
     text-align: center;
     margin-left: 20%;
-    
     transition: .7s ease-in-out ;
-    
 }
+
+.container{
+position:relative;
+
+}
+
+.color{
+    width:50%;
+    aspect-ratio:1/1;
+    text-align:center;
+    transition: .7s ease-in-out;
+    
+    align-items:center;
+    opacity:0.5;
+}
+
+.ithas{
+    width:50%;
+    aspect-ratio:14/3;
+    text-align:center;
+    transition: .7s ease-in-out;
+    align-items:center;
+}
+
+.exp{
+    width:50%;
+    aspect-ratio:7/2;
+    text-align:center;
+    align-items:center;
+    transition: .7s ease-in-out;
+    margin-top:70%;
+}
+
+.each{
+    width:60%;
+    aspect-ratio:7/2;
+    margin-left: 20%;
+    align-items:center;
+    margin-top:95%;
+    position:absolute;
+}
+
+
 
 .fadein {
     z-index:10;
-    transform: translateX(70%);
-    transition: all .3s ease-in;
+    transform: translateX(10%);
+    transition: all .7s ease-in;
+    
   }
   /* 画面に入った時の動き */
   .fadein.blockIn {
@@ -61,20 +107,119 @@ body{
 .fadein2 {
     z-index:20;
     transform: translateY(20%);
-    transition: all .3s ease-in;
+    transition: all .7s ease-in;
   }
   /* 画面に入った時の動き */
   .fadein2.blockIn {
     transform: translateY(-20%);
   }
 
+  .fadein3 {
+    z-index:30;
+    transform: translate(80%, 80%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein3.blockIn {
+    transform: translate(50%, 50%);
+  }
+
+  .fadein4 {
+    z-index:70;
+    transform: translate(20%, 30%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein4.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein5 {
+    z-index:60;
+    transform: translate(90%,10%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein5.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein6 {
+    z-index:50;
+    transform: translate(40%,70%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein6.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein7 {
+    z-index:40;
+    transform: translate(10%,80%);
+    transition: all .7s ease-in;
+    position:absolute;  
+}
+
+  /* 画面に入った時の動き */
+  .fadein7.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein8 {
+    z-index:80;
+    transform: translate(40%,40%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein8.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein9 {
+    z-index:90;
+    transform: translate(20%,10%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein9.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein10 {
+    z-index:100;
+    transform: translate(100%,50%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein10.blockIn {
+    transform: translate(50%,50%);
+  }
+
+  .fadein11 {
+    z-index:110;
+    transform: translate(0%,50%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein11.blockIn {
+    transform: translate(50%,50%);
+  }
 
 
 .box{
     display:flex;
     width:100%;
     justify-content:center;
-    
+    margin-top:120%;
     text-align: center;
 }
 
@@ -82,7 +227,7 @@ body{
 .hands{
    
     width:100%;
-    padding:10%;
+    
     aspect-ratio:1247/628;
     z-index:20;
     position:absolute;
@@ -93,6 +238,7 @@ body{
 
 .boxes1{
     border:1px solid #fff;
+    
     margin:2%;
     width:25%;
     aspect-ratio:8/15;
