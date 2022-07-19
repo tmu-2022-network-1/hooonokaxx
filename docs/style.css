@@ -23,7 +23,7 @@ body{
     width:100%;
     background:#fff;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 @keyframes fade{
@@ -238,15 +238,12 @@ position:relative;
 
 .boxes1{
     border:1px solid #fff;
-    
     margin:2%;
     width:25%;
     aspect-ratio:8/15;
     overflow:scroll !important;
     position:relative;
-    align-items:center;
-    
-   
+    align-items:center;   
     text-align: center;
 }
 
@@ -260,7 +257,6 @@ position:relative;
     aspect-ratio:2/15;
     z-index:10;
     position:absolute;
-    
     align-items:center;
     left:0px;
     top:0px;
@@ -273,18 +269,99 @@ position:relative;
     aspect-ratio:2/15;
     z-index:30;
     position:absolute;
-  
     align-items:center;
     left:0px;
     top:0px;
 }
 
+.sub{
+    width:70%;
+    aspect-ratio:9/4;
+    text-align:center;
+    align-items:center;
+    transition: .7s ease-in-out;
+    margin-top:50%;
+    margin-left:-79%;
+}
 
+.fadein12 {
+    z-index:120;
+    transform: translateY(80%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein12.blockIn {
+    transform: translateY(20%);
+  }
+
+
+.xscroll{
+    margin-top:45%;
+    justify-content:center;
+}
+
+.dboxes{
+    
+    overflow-x:auto;
+    white-space:nowrap;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+    aspect-ratio:9/3.8;
+    justify-content:center;
+    text-align: center;
+}
+
+.items1{
+    display: inline-block;
+	width:20%;
+    aspect-ratio:8/15;
+    margin:2%;
+	margin-left: -6%;
+    position:relative;
+    align-items:center;   
+    text-align: center;
+
+}
+
+.items{
+   
+    display: inline-block;
+	width:20%;
+    aspect-ratio:8/15;
+	margin: 2%;
+    position:relative;
+    align-items:center;   
+    text-align: center;
+
+}
+
+.items2{
+    display: inline-block;
+	width:20%;
+    aspect-ratio:8/15;
+    margin:2%;
+	margin-right: 15%;
+    position:relative;
+    align-items:center;   
+    text-align: center;
+
+}
+
+
+
+.dimages{
+    width:100%;
+    aspect-ratio:8/15;
+    position:absolute;
+    align-items:center;
+}
 
 
 
 
 #footer{
+    margin-top:30%;
     background:#333;
     color:#fff;
     padding:40px;
