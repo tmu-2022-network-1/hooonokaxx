@@ -357,11 +357,52 @@ position:relative;
     align-items:center;
 }
 
+.wish{
+    width:70%;
+    aspect-ratio:9/4;
+    text-align:center;
+    align-items:center;
+    transition: .7s ease-in-out;
+    margin-top:-5%;
+}
 
+
+.fadein14 {
+    z-index:150;
+    transform: translate(20%,80%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein14.fadein {
+    transform: translate(50%,50%);
+  }
+
+.fadein15 {
+    z-index:130;
+    transform: translate(10%,60%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein15.blockIn {
+    transform: translate(40%,60%);
+  }
+
+.fadein16 {
+    z-index:140;
+    transform: translate(40%,40%);
+    transition: all .7s ease-in;
+    position:absolute;
+  }
+  /* 画面に入った時の動き */
+  .fadein16.blockIn {
+    transform: translate(0%,60%);
+  }
 
 
 #footer{
-    margin-top:30%;
+    margin-top:60%;
     background:#333;
     color:#fff;
     padding:40px;
@@ -369,5 +410,7 @@ position:relative;
 }
 
 .footer{
+    text-align:right;
+    font-size:3%;
     color:white;
 }
