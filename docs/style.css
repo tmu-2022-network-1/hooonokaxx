@@ -358,7 +358,7 @@ position:relative;
 }
 
 .wish{
-    width:70%;
+    width:60%;
     aspect-ratio:9/4;
     text-align:center;
     align-items:center;
@@ -375,7 +375,7 @@ position:relative;
   }
   /* 画面に入った時の動き */
   .fadein14.fadein {
-    transform: translate(50%,50%);
+    transform: translate(80%,50%);
   }
 
 .fadein15 {
@@ -386,7 +386,7 @@ position:relative;
   }
   /* 画面に入った時の動き */
   .fadein15.blockIn {
-    transform: translate(40%,60%);
+    transform: translate(50%,60%);
   }
 
 .fadein16 {
@@ -397,7 +397,7 @@ position:relative;
   }
   /* 画面に入った時の動き */
   .fadein16.blockIn {
-    transform: translate(0%,60%);
+    transform: translate(30%,60%);
   }
 
 
