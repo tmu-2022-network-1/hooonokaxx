@@ -60,7 +60,6 @@ position:relative;
     aspect-ratio:1/1;
     text-align:center;
     transition: .7s ease-in-out;
-    
     align-items:center;
     opacity:0.5;
 }
@@ -225,9 +224,7 @@ position:relative;
 
 
 .hands{
-   
-    width:100%;
-    
+    width:100%; 
     aspect-ratio:1247/628;
     z-index:20;
     position:absolute;
@@ -301,8 +298,7 @@ position:relative;
     justify-content:center;
 }
 
-.dboxes{
-    
+.dboxes{ 
     overflow-x:auto;
     white-space:nowrap;
     -webkit-overflow-scrolling: touch;
@@ -321,11 +317,9 @@ position:relative;
     position:relative;
     align-items:center;   
     text-align: center;
-
 }
 
 .items{
-   
     display: inline-block;
 	width:20%;
     aspect-ratio:8/15;
@@ -333,7 +327,6 @@ position:relative;
     position:relative;
     align-items:center;   
     text-align: center;
-
 }
 
 .items2{
@@ -345,10 +338,7 @@ position:relative;
     position:relative;
     align-items:center;   
     text-align: center;
-
 }
-
-
 
 .dimages{
     width:100%;
